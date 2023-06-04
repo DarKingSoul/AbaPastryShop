@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>AbaPastry</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <header>
+        <!-- Navegation -->
+        <nav id="nav"  class="nav container">
+            <div class="logo_container">
+                <div class="logo"></div>
+                <a href="#nav">
+                    <img class="logo_img" src="./imgs/logo.png" alt="Aba Pastry Shop">
+                </a>
+                <h1>Aba Pastry Shop</h1>
+            </div>
+
+            <button class="nav_button">
+                <ion-icon name="menu-outline"></ion-icon>
+            </button>
+            <div class="nav_menu">
+                <ul>
+                    <li><a href="#nav" class="nav_menu_item text_sm">Inicio</a></li>
+                    <li><a href="#section_products" class="nav_menu_item text_sm">Productos</a></li>
+                    <li><a href="#section_footer" class="nav_menu_item text_sm">Contáctanos</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- Main cover -->
+        <section id="main_cover" class="main_cover">
+            <div class="main_header container">
+                <header>
+                    <p class="text_xl dot_paragraph">Crea tu pastel personalizado</p>
+                    <p class="text_md">Solo aquí puedes crear tu propio postre con un sabor original</p>
+                </header>
+                <img src="./imgs/fondo.jpg" alt="Rebanada de pastel de chocolate" loading="lazy">
+                <!-- <span class="main_img"></span> -->
+            </div>
+        </section>
+
+        <section id="section_products" class="section_products">
+            <div class="product container">
+                <header class="product_header">
+                    <div class="product_title">
+                        <img class="product_img" src="./imgs/cupcake.png" alt="Cupcake" loading="lazy">
+                        <h2 class="title text_xl">Cupcakes</h2>
+                    </div>
+                    <p class="text_sm">No puedes comprar la felicidad pero si puedes comprar cupcakes. Disfruta de los
+                        cupcakes hechos a mano</p>
+                </header>
+
+                <div class="carrucel_container container">
+                    <div class="carrusel">
+                        <div class="atras">
+                            <ion-icon id="atras" name="chevron-back-outline"></ion-icon>
+                        </div>
+                        <div class="images">
+                            <div id="img">
+                                <img class="img" src="./imgs/cupcake_1.webp" alt="Cupcake" loading="lazy">
+                            </div>
+                            <div class="text_carrucel" id="text_carrucel">
+                                <p class="title_carrucel text_md">Cupcake de Fondant</p>
+                                <p class="paragraph">Festeja con esa persona especial a lo grande</p>
+                            </div>
+                        </div>
+                        <div class="adelante" id="adelante">
+                            <ion-icon id="adelante" name="chevron-forward-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="puntos" id="puntos"></div>
+                </div>
+            </div>
+
+            <div class="product container">
+                <header class="product_header">
+                    <div class="product_title">
+                        <img class="product_img" src="./imgs/pastel.png" alt="Cupcake" loading="lazy">
+                        <h2 class="title text_xl">Pasteles</h2>
+                    </div>
+                    <p class="text_sm">Pasteles para todas las ocasiones. El sabor de la felicidad, tradición y perfección.</p>
+                </header>
+
+                <div class="carrucel_container container">
+                    <div class="carrusel">
+                        <div class="atras">
+                            <ion-icon id="atras" name="chevron-back-outline"></ion-icon>
+                        </div>
+                        <div class="images">
+                            <div id="img">
+                                <img class="img" src="./imgs/fondo.jpg" alt="Cupcake" loading="lazy">
+                            </div>
+                            <div class="text_carrucel" id="text_carrucel">
+                                <p class="title_carrucel text_md">Pastel de chocolate</p>
+                                <p class="paragraph">Endulsa no solo tu paladar sino tu vida</p>
+                            </div>
+                        </div>
+                        <div class="adelante" id="adelante">
+                            <ion-icon id="adelante" name="chevron-forward-outline"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="puntos" id="puntos"></div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="section_footer" class="section_footer">
+            <div class="footer_wave">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="footer container">
+                <div class="contact">
+                    <h2>Contáctanos</h2>
+                    <p>Quito - Ecuador</p>
+                    <p>+593 099-513-3789</p>
+                </div>
+                <div class="logo_container">
+                    <div class="logo"></div>
+                    <a href="#nav">
+                        <img class="logo_img" src="./imgs/logo.png" alt="Aba Pastry Shop">
+                    </a>
+                    <p class="text_sm">Aba Pastry Shop</p>
+                </div>
+                <div class="social_networks">
+                    <a href="https://www.facebook.com/abapastryshop" target="_blank">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                    <a href="https://www.instagram.com/abapastryshop" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script src="./script/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
