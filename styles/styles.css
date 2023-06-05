@@ -193,8 +193,8 @@ a {
 
 .img {
     box-shadow: 0px 2px 5px 0px #ff9900;
-    height: min(11.875rem, 17.25rem);
-    width: min(15.625rem, 33.938rem);
+    height: 17.25rem;
+    width: 33.938rem;
     border-radius: 15px;
     object-fit: fill;
     filter: saturate(165%);
@@ -380,6 +380,11 @@ ion-icon {
         height: 200px;
         top: -30px;
         left: -110px;
+    }
+
+    .img {
+        height: 11.875rem;
+        width: 15.625rem;
     }
     
     .footer_wave svg {
